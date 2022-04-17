@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 import styled from "styled-components";
 
 const Title = styled.h1`
@@ -20,6 +21,12 @@ const Text = styled.p`
   margin: 12px;
 `;
 
+const ImageWrapper = styled.div`
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+`;
+
 const Home: NextPage = () => {
   return (
     <>
@@ -27,6 +34,9 @@ const Home: NextPage = () => {
       <Text>
         Template with Next.js 12 and Typescript and Styled Components using SWR
       </Text>
+      <ImageWrapper>
+        <Image src="/vercel.svg" alt="logo" width="283" height="64" />
+      </ImageWrapper>
     </>
   );
 };
