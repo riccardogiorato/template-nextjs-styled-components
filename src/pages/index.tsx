@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         Template with Next.js 12 and Typescript and Styled Components using SWR
       </Text>
       <ImageWrapper>
-        <Image src="/vercel.svg" alt="logo" width="283" height="64" />
+        <Image src="/cover.jpg" alt="logo" width="512" height="256" />
       </ImageWrapper>
     </>
   );
